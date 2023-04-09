@@ -4,7 +4,7 @@ const GifItem = ({ title, image }) => {
   return (
     <div className='card'>
       <p>{ title }</p>
-      <img src={ image.url }/>
+      <img src={ image.url } alt={title} />
     </div>
   );
 }

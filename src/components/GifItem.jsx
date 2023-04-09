@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types'
 
-const GifItem = ({ title, image }) => {
+const GifItem = ({ title, url }) => {
   return (
     <div className='card'>
       <p>{ title }</p>
-      <img src={ image.url } alt={title} />
+      <img src={ url } alt={title} />
     </div>
   );
 }

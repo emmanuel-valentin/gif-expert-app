@@ -9,7 +9,8 @@ exports[`Pruebas en el componente GifItem Debe hacer match con el snapshot 1`] =
       Hola mundo
     </p>
     <img
-      src="https://www.holamundo.com"
+      alt="Hola mundo"
+      src="https://www.holamundo.com/"
     />
   </div>
 </div>

@@ -10,7 +10,7 @@ const GifGrid = ({ category }) => {
       <GifItem
         key={id}
         title={title}
-        image={url}
+        url={url}
       />
     );
   };
